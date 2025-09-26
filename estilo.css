@@ -1,0 +1,31 @@
+.minha-lista-flex {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .minha-lista-flex li {
+    /* Cada item ocupará cerca de 33% da largura, criando 3 colunas */
+    flex-basis: 33.33%; 
+  }
+#card-1{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#card-2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#card-3{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#cardimg img{
+    height: 200px;
+    width: 400px;
+}
+#caimg img{
+    height: 100%;
+}
