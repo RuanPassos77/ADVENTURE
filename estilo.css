@@ -9,23 +9,46 @@
     /* Cada item ocupará cerca de 33% da largura, criando 3 colunas */
     flex-basis: 33.33%; 
   }
-#card-1{
+#card-1, #card-2, #card-3{
     margin-top: 100px;
     margin-left: 100px;
-}
-#card-2{
-    margin-top: 100px;
-    margin-left: 100px;
-}
-#card-3{
-    margin-top: 100px;
-    margin-left: 100px;
+    background-color:#273523;
+    border: 1px solid #fff;
 }
 
 #cardimg img{
     height: 200px;
     width: 400px;
 }
-#caimg img{
-    height: 100%;
+#conteine img{
+    margin-top: 100px;
+    height: 500px;
+    width: 2000px;
+    object-fit: cover;
+}
+footer{
+    margin-top: 200px;
+    background-color: #273523;
+}
+#cab{
+    background-color: #273523;
+}
+#cab input{
+   
+    background-color: #273523;
+    border: 1px solid #ffffff;
+}
+#cab span{
+    margin-right: 50px;
+}
+#card-1 li{
+    padding: 0px;
+}
+body{
+    background-image: url(Desktop\ -\ 9.svg);
+     background-size: cover;
+    /* Faz a imagem cobrir toda a tela */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
 }
